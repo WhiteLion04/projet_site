@@ -1,0 +1,22 @@
+.bg-img{
+  background-image: url('/public/CGA_Broad_consulting_promo.jpg');
+  background-size: cover;
+  background-position: center;
+  height: screen;
+  padding-top: 35;
+
+}
+@media (min-width: 320px) {
+  #img1{
+    width: 100%;
+  }
+}
+.bg-footer{
+  background-image: url('/public/photo.avif');
+  background-size: cover;
+  background-position: center;
+  height:screen;
+  padding-top: 35;
+  filter: brightness(99%)
+}
+
