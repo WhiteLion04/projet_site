@@ -7,7 +7,7 @@ function Footer () {
         <>
         
         <div className="bg-footer">
-            <section className=" bg-black/60 h-[80] w-full flex flex-wrap justify-between items-start px-28 p-16">
+            <section className=" bg-black/60 h-[807] w-full flex flex-wrap justify-between items-start px-28 p-16">
                 <div className="flex flex-col brightness-105">
                     <div className="" id="left">
                         <img src={CGA_Broad_Consulting_logo} alt="logo" height="150px" width="150px" className="shadow-sm mb-2"/>

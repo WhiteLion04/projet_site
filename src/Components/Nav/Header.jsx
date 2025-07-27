@@ -13,17 +13,15 @@ function Header () {
         <>  
             
             <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-violet-950 backdrop-blur-md shadow-lg ">
-                <div className="font-dancing max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="font-dancing margin-top: 65px; mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between items-center pt-1.5">
                         <a className="flex items-center space-x-3 group
                         " href="/">
-                            <div className="relative">
-                            <div>
-                                <img src={CGA_Broad_Consulting_logo} alt="logo" height="90px" width="90px" className="shadow-sm brightness-110"/>
+
+                            <div className="relative" id="logo">
+                                <img src={CGA_Broad_Consulting_logo} alt="logo" height="85px" width="85px" className="shadow-sm brightness-100"/>
                             </div>
-                            <div className="absolute inset-0 bg-gradient-to-br from-primary-400 to-secondary-400 rounded-xl blur opacity-30 group-hover:opacity-50 transition-opacity duration-300">
-                        </div>
-                            </div>
+
                         </a>
                     <nav className="hidden lg:flex items-center space-x-1">
                         <a className="nav_style bg-gradient-to-r hover:from-violet-900 hover:to-fuchsia-900 hover:text-white" href="/">
@@ -41,13 +39,18 @@ function Header () {
                             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-0.5 bg-gradient-to-r from-primary-500 to-secondary-500 transition-all duration-300 w-full">
                             </div>
                         </a>
-                        <a className="nav_style bg-gradient-to-r hover:from-violet-900 hover:to-fuchsia-900 hover:text-white" href="/testimonials">
+                        <a className="nav_style bg-gradient-to-r hover:from-violet-900 hover:to-fuchsia-900 hover:text-white" href="/blog">
                         Blog
                             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-0.5 bg-gradient-to-r from-primary-500 to-secondary-500 transition-all duration-300 w-0 group-hover:w-full">
                             </div>
                         </a>
                         <a className="nav_style bg-gradient-to-r hover:from-violet-900 hover:to-fuchsia-900 hover:text-white" href="https://www.cfp-brcgroup.com/">
                         Formation
+                            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-0.5 bg-gradient-to-r from-primary-500 to-secondary-500 transition-all duration-300 w-0 group-hover:w-full">
+                            </div>
+                        </a>
+                         <a className="nav_style bg-gradient-to-r hover:from-violet-900 hover:to-fuchsia-900 hover:text-white" href="/prenez">
+                        Prenez rendez-vous
                             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-0.5 bg-gradient-to-r from-primary-500 to-secondary-500 transition-all duration-300 w-0 group-hover:w-full">
                             </div>
                         </a>
@@ -83,15 +86,16 @@ function Header () {
                                         <a className="hidden-nav bg-gradient-to-r hover:from-violet-900 hover:to-fuchsia-900" href="/">À propos</a>
                                         <a className="text-l hidden-nav bg-gradient-to-r hover:from-violet-900 hover:to-fuchsia-900" href="/solution">Nos Services</a>
                                         <a className="hidden-nav bg-gradient-to-r hover:from-violet-900 hover:to-fuchsia-900" href="/about">Adhesion CGA</a>
-                                        <a className="hidden-nav bg-gradient-to-r hover:from-violet-900 hover:to-fuchsia-900" href="/testimonials">Blog</a>
-                                        <a className="hidden-nav bg-gradient-to-r hover:from-violet-900 hover:to-fuchsia-900" href="https://www.cfp-brcgroup.com/    ">Formation</a>
+                                        <a className="hidden-nav bg-gradient-to-r hover:from-violet-900 hover:to-fuchsia-900" href="/blog">Blog</a>
+                                        <a className="hidden-nav bg-gradient-to-r hover:from-violet-900 hover:to-fuchsia-900" href="https://www.cfp-brcgroup.com/">Formation</a>
+                                         <a className="hidden-nav bg-gradient-to-r hover:from-violet-900 hover:to-fuchsia-900" href="/prenez">Prendre Rendez-vous</a>
                                         <div className="pt-4 border-t border-neutral-200/50">
                                             <a className="block w-full text-center px-4 py-3 mb-5 bg-gradient-to-r from-violet-900 to-fuchsia-900 text-white font-semibold rounded-xl hover:from-fuchsia-800 hover:to-fuchsia-800 transition-all duration-300" href="/contact">
                                             Parler à un expert
                                             </a>
                                         </div>
                                         </nav>
-                                        <div id="centre" className="text-center text-white text-sm">
+                                        <div id="centre" className="text-center text-white text-sm hover:decoration-slice">
                                             <div className="pb-5">
                                                 <a className="pr-5" href="">
                                                     <i className="fas fa-phone pr-2"></i>
@@ -107,10 +111,10 @@ function Header () {
                             )}
                     </div>
                 </div>
-                <div id="centre" className="text-center text-white ">
+                <div id="centre" className="pt-2 text-center text-white ">
                     <div className="pb-1">
                         <a className="pr-5" href="">
-                            <i className="fas fa-phone pr-2"></i>
+                            <i className="fas fa-phone pr-2 hover:decoration-slice"></i>
                             contact
                             </a>
                         
@@ -118,17 +122,6 @@ function Header () {
                             <i className="fas fa-envelope pr-2"></i>
                             cga-brc@gmail.com</a>
 
-                        <a href="">
-                            <i className="fab fa-facebook-f pl-2 pr-3 text-xl marker:fa-lg"></i>
-                        </a>
-
-                        <a href="">
-                            <i className="fab fa-twitter fa-lg text-xl marker:pr-3"></i>
-                        </a>
-
-                        <a href="">
-                            <i className="fab fa-instagram pr-2 text-xl pl-3 fa-lg"></i>
-                        </a>
 
                         </div>
                 </div>

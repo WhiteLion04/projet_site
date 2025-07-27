@@ -70,19 +70,19 @@ const team = [
 
     return(
         <>
-            
+              {/*debut*/}
                 <div className="bg-img">
-                    <div className="flex justify-end" id="title">
-                        <div className="">
-                            <p className="shadow-blanc-transparent text-white font-bold pt-80 text-3xl lg:text-4xl">Centre de Gestion Agree</p>
-                            <p style={{fontFamily: "'Kalnia', sans-serif"}} className="shadow-blanc-transparent text-fuchsia-600 font-extrabold pb-80 text-3xl lg:text-4xl">Broad Range Consulting Group</p>
+                    <div className="flex justify-space-between ml-[50%]" id="title">
+                        <div className=" sm:text-sm ">
+                            <p className="md:text-md title shadow-blanc-transparent text-white font-bold pt-72 text-xl lg:text-4xl">Centre de Gestion Agree</p>
+                            <p style={{fontFamily: "'Kalnia', sans-serif"}} className=" shadow-blanc-transparent text-fuchsia-600 font-extrabold pb-80 text-2xl lg:text-4xl">Broad Range Consulting Group</p>
                         </div>
                     </div>
                 </div>
             
             {/*Section de la description */}
              <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className=" mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-violet-100  rounded-3xl p-8 md:p-16 shadow-xl">
             <div className="gap-16 items-center">
               <div className="space-y-8">
