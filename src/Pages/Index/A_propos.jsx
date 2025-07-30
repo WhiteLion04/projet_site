@@ -68,20 +68,28 @@ const team = [
     }
   ];
 
+  const milestones = [
+    { year: "2008", title: "Expansion des Service", description: "Élargissement de notre portefeuille de services aux TPE et PME. Développement de l'expertise comptable et juridique." },
+    { year: "2013", title: "Nouvelle Direction", description: "Arrivée d'un nouveau CEO et d'une équipe plus jeune et dynamique. Nouvelle approche dans la relation clientèle." },
+    { year: "2018", title: "Ouverture Multi-Agence", description: "Transformation numérique de nos services avec des processus optimisés et une nouvelle identité visuelle moderne." },
+    { year: "2024", title: "Modernisation Digitale", description: "Sélection programme d'accélération" },
+  ];
+  
+
     return(
         <>
               {/*debut*/}
                 <div className="bg-img">
-                    <div className="flex justify-space-between ml-[50%]" id="title">
-                        <div className=" sm:text-sm ">
-                            <p className="md:text-md title shadow-blanc-transparent text-white font-bold pt-72 text-xl lg:text-4xl">Centre de Gestion Agree</p>
-                            <p style={{fontFamily: "'Kalnia', sans-serif"}} className=" shadow-blanc-transparent text-fuchsia-600 font-extrabold pb-80 text-2xl lg:text-4xl">Broad Range Consulting Group</p>
+                    <div className="flex justify-space-between ml-[45%]" id="title">
+                        <div className="">
+                            <p className="title shadow-blanc-transparent text-white lg:mr-[30%] font-bold pt-20 lg:pt-72 text-xl lg:text-5xl">Centre de Gestion Agree</p>
+                            <p style={{fontFamily: "'Kalnia', sans-serif"}} className="shadow-blanc-transparent text-fuchsia-600 font-extrabold text-xl lg:text-5xl">Broad Range Consulting Group</p>
                         </div>
                     </div>
                 </div>
             
             {/*Section de la description */}
-             <section className="py-24 bg-white">
+             <section className="pb-32 pt-24 bg-white">
         <div className=" mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-violet-100  rounded-3xl p-8 md:p-16 shadow-xl">
             <div className="gap-16 items-center">
@@ -132,7 +140,7 @@ const team = [
             
             {/* Team Section */}
             <section className="">
-              <div className="text-center mb-20">
+              <div className="text-center mb-">
                       <div className="inline-flex items-center space-x-2 bg-fuchsia-300 text-violet-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
                       <i className="fas fa-user"/>
                       <span>Notre équipe</span>
@@ -148,7 +156,7 @@ const team = [
                   </p>
                 </div>
                 <div className="">
-                    <div className="grid md:grid-cols-4 gap-8 mt-10 sm:grid-cols-2 px-5">
+                    <div className="grid md:grid-cols-4  gap-8 mt-10 sm:grid-cols-2 px-14">
                         {team.map((member, index) => (
                             <div key={index} className="group">
                                 <div className=" mb-8">
@@ -174,10 +182,43 @@ const team = [
                 </div>
             </section>
 
-            {/*Nos Services*/}
-            <section>
+    {/*<!-- Timeline Section -->*/}
+    <section className="py-24 bg-gradient-to-br from-purple-200 to-white ">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-20">
+            <h2 className="text-4xl md:text-5xl font-bold text-neutral-900 mb-6">
+              Notre {' '}
+              <span className="bg-gradient-to-r from-violet-600 to-fuchsia-600 bg-clip-text text-transparent">
+                Évolution
+              </span>
+            </h2>
+            <p className="text-xl text-neutral-600 leading-relaxed">
+              Les étapes clés de notre développement et de notre reconnaissance
+            </p>
+          </div>
 
-            </section>
+          <div className="relative">
+            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-violet-500 to-fuchsia-500"></div>
+            
+            <div className="space-y-12">
+              {milestones.map((milestone, index) => (
+                <div key={index} className="relative flex items-start">
+                  <div className="w-20 h-20 abolute bg-white rounded-full border-4 border-purple-500  flex items-center mx-auto justify-center flex-col hover:scale-105">
+                  <div className="bg-gradient-to-r  from-violet-500 to-fuchsia-500 w-14 h-14 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg mx-auto">
+                    {milestone.year}
+                  </div>
+                  </div>
+                  <div className="ml-8 bg-white p-6 rounded-2xl shadow-lg flex-1">
+                    <h3 className="text-xl font-bold text-neutral-900 mb-2">{milestone.title}</h3>
+                    <p className="text-neutral-600">{milestone.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
         </>
     )
 }

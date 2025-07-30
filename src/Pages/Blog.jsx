@@ -7,35 +7,35 @@ function Blog () {
             titre:"Créer une société coopérative au Cameroun",
             informations: "par Christian Tchamadeu | Nov 28, 2022",
             descriptions: "La société coopérative est un groupement autonome de personnes volontairement réunies pour satisfaire leurs aspirations et besoins économiques, sociaux et culturels communs, au moyen d’une entreprise dont la propriété et la gestion sont collectives et où le pouvoir...",
-            image: "https://www.cga-brcgroup.com/parler-a-un-expert/",
+            image: "https://www.cga-brcgroup.com/wp-content/uploads/2021/01/BrConsulting899.jpg",
             category: " Entreprise"
         },
         {
             titre:"Créer une société civile immobilière au Cameroun",
             informations: "par Christian Tchamadeu | Nov 28, 2022 ",
             descriptions: "La succursale est  un établissement secondaire, ouvert par une société mère à l'étranger, pour faciliter l'extension géographique de ses activités ainsi que ses relations avec la clientèle. Autrement dit , c' est un établissement commercial ou industriel ou de...",
-            image: "https://www.cga-brcgroup.com/parler-a-un-expert/",
+            image: "https://www.cga-brcgroup.com/wp-content/uploads/2021/01/BrConsulting.jpg",
             category: "Uncategorized"
         },
         {
             titre:"Créer une société coopérative au Cameroun",
             informations: "par Christian Tchamadeu | Nov 28, 2022",
             descriptions: "Une SCI ou société civile immobilière est un contrat de société par lequel plusieurs personnes (les associés) décident de mettre en commun un ou plusieurs biens immobiliers afin d’en partager les bénéfices ou de profiter de l’économie qui pourrait en résulter, tout en...",
-            image: "https://www.cga-brcgroup.com/parler-a-un-expert/",
+            image: "https://www.cga-brcgroup.com/wp-content/uploads/2021/01/BrConsulting899.jpg",
             category: "Uncategorized"
         },
         {
             titre:"L’importance de la formalisation d’entreprise pour le promoteur et pour l’Etat",
             informations: "par Christian Tchamadeu | Nov 28, 2022 ",
             descriptions: "Le but affiché des initiatives de formalisation de l’entreprise consiste à créer des emplois en plus grand nombre et de meilleure qualité, à réduire la pauvreté et à remédier à la marginalisation de ceux qui sont tout particulièrement exposés aux plus graves déficits...",
-            image: "https://www.cga-brcgroup.com/parler-a-un-expert/",
+            image: "https://www.cga-brcgroup.com/wp-content/uploads/2021/01/BrConsulting.jpg",
             category : "Entreprise"
         },
         {
             titre:"Créer une société anonyme au Cameroun",
             informations: "par Christian Tchamadeu | Nov 28, 2022 ",
             descriptions: "La S.A  (La société anonyme) est une société dans laquelle les actionnaires ne sont responsables des dettes sociales qu’à concurrence de leurs apports et dont les droits des actionnaires sont représentés par des actions. La société anonyme peut ne comprendre qu’un...",
-            image: "https://www.cga-brcgroup.com/parler-a-un-expert/",
+            image: "https://www.cga-brcgroup.com/wp-content/uploads/2021/01/BrConsulting.jpg",
             category : "Entreprise"
         }
     ];
